@@ -1,0 +1,39 @@
+.page-main {
+    min-height: 100vh;
+    background-color: #e4b798;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.required-content {
+    padding: 20px;
+}
+
+.required-header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.required-text {
+    font-size: 1.2rem;
+    color: #333333;
+}
+
+.required-text a {
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.required-text a:hover {
+    text-decoration: underline;
+}
