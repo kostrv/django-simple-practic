@@ -1,0 +1,24 @@
+{% load static %}
+
+<head>
+    <link rel="stylesheet" href="{% static 'css/font.css' %}">
+    <link rel="stylesheet" href="{% static 'css/required.css' %}">
+</head>
+
+{% include 'header.html' %}
+
+<body>
+    <section id="required" class="page-main">
+        <div class="container">
+            <div class="required-content">
+                <h1 class="required-header">Ошибка!</h1>
+                <p class="required-text">
+                    Данный URL-адрес предназначен только для POST запросов.
+                    Если у вас возникли какие-либо проблемы, пожалуйста, свяжитесь со мной по адресу <a href="mailto:support@example.com">support@example.com</a>.
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+
+{% include 'footer.html' %}

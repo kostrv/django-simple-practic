@@ -1,0 +1,18 @@
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <title>Website</title>
+    <link rel="stylesheet" href="{% static 'css/font.css' %}">
+    <link rel="stylesheet" href="{% static 'css/header.css' %}">
+</head>
+
+<header>
+    <h1>Мой сайт</h1>
+    <nav>
+        <a href="{% url 'home' %}">Дом</a>
+        <a href="{% url 'about' %}">Обо мне</a>
+        <a href="{% url 'services' %}">Мои услуги</a>
+        <a href="{% url 'contact' %}">Контакт</a>
+    </nav>
+</header>

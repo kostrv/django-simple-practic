@@ -1,0 +1,33 @@
+{% load static %}
+
+<head>
+    <link rel="stylesheet" href="{% static 'css/font.css' %}">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+
+{% include 'header.html' %}
+
+<body>
+    <section id="home" class="page-main">
+        <div class="container">
+            <div class="home-content">
+                <h1 class="home-header">Digital решения для Вашего успеха</h1>
+                <p class="home-text">
+                    Приветствую! Я предлагаю широкий спектр digital услуг, которые помогут вашему проекту выделиться в цифровом пространстве. 
+                    Мой опыт охватывает различные направления, включая веб-разработку, дизайн и маркетинг. 
+                    Я ориентирован на решение ваших задач и достижение поставленных целей.
+                </p>
+                <p class="home-text">
+                    Ознакомьтесь с моими услугами и узнайте, как я могу помочь в реализации вашего проекта. 
+                    Независимо от того, нужен ли вам уникальный веб-сайт, продвижение в соцсетях или техническая поддержка —
+                    я готов предложить креативные и эффективные решения. Ваш успех — мой приоритет.
+                </p>
+            </div>
+            <div class="home-image">
+                <img src="{% static 'img/digital.jpg' %}" alt="digital services">
+            </div>
+        </div>
+    </section>
+</body>
+
+{% include 'footer.html' %}
